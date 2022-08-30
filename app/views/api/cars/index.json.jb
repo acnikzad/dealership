@@ -1,0 +1,16 @@
+@cars.map do |car|
+  {
+
+  id: car.id,
+  year: car.year,
+  make: car.make,
+  model: car.model,
+  color: car.color,
+  drivetrain: car.drivetrain,
+  type: car.type,
+  price: car.price,
+  mileage: car.mileage,
+  dealership_id: car.dealership_id
+
+  }
+end
