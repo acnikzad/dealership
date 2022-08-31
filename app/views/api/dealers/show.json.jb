@@ -1,0 +1,10 @@
+{
+  id: @dealer.id,
+  name: @dealer.name,
+  phone_number: @dealer.phone_number,
+  address: @dealer.address,
+  city: @dealer.city,
+  cash: @dealer.cash,
+  user_id: @dealer.user_id
+
+}

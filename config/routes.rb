@@ -10,11 +10,11 @@ Rails.application.routes.draw do
     patch "/users/:id" => "users#update"
     delete "/users/:id" => "users#destroy"
 
-    get "/dealerships" => "dealerships#index"
-    get "/dealerships/:id" => "dealerships#show"
-    post "/dealerships" => "dealerships#create"
-    patch "/dealerships/:id" => "dealerships#update"
-    delete "/dealerships/:id" => "dealerships#destroy"
+    get "/dealers" => "dealers#index"
+    get "/dealers/:id" => "dealers#show"
+    post "/dealers" => "dealers#create"
+    patch "/dealers/:id" => "dealers#update"
+    delete "/dealers/:id" => "dealers#destroy"
 
     get "/cars" => "cars#index"
     get "/cars/:id" => "cars#show"

@@ -1,0 +1,15 @@
+{
+  
+  id: @request.id,
+  year: @request.year,
+  make: @request.make,
+  model: @request.model,
+  color: @request.color,
+  drivetrain: @request.drivetrain,
+  type: @request.type,
+  status: @request.status,
+  comment: @request.comment,
+  user_id: @request.user_id,
+  dealership_id: @request.dealership_id,
+
+  }
