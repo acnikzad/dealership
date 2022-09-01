@@ -23,7 +23,8 @@ class Api::RequestsController < ApplicationController
       status: params[:status],
       comment: params[:comment],
       user_id: params[:user_id],
-      dealership_id: params[:dealership_id],
+      dealer_id: params[:dealer_id],
+      car_id: params[:car_id]
       )
     @request.save
     render :show
@@ -41,7 +42,8 @@ class Api::RequestsController < ApplicationController
     @request.comment = params[:comment] || @request.comment
     @request.status = params[:status] || @request.status
     @request.user_id = params[:user_id] || @request.user_id
-    @request.dealership_id = params[:dealership_id] || @request.dealership_id
+    @request.dealer_id = params[:dealer_id] || @request.dealer_id
+    @request.car_id = params[:car_id] || @request.car_id
 
     @request.save
     render :show

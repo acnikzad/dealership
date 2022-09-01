@@ -18,10 +18,7 @@ class Api::UsersController < ApplicationController
       last_name: params[:last_name],
       email: params[:email],
       password: params[:password],
-      password_digest: params[:password_digest],
-      type: params[:type],
-      user_id: params[:user_id],
-      dealership_id: params[:dealership_id],
+      password_confirmation: params[:password_confirmation],
       )
     @user.save
     render :show
@@ -34,7 +31,7 @@ class Api::UsersController < ApplicationController
     @user.last_name = params[:last_name] || @user.last_name
     @user.email = params[:email] || @user.email
     @user.password = params[:password] || @user.password
-    @user.password_digest = params[:password_digest] || @user.password_digest
+    @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation
 
     @user.save
     render :show

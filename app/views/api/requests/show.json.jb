@@ -11,5 +11,6 @@
   comment: @request.comment,
   user_id: @request.user_id,
   dealer_id: @request.dealer_id,
+  car_id: @request.car_id
 
   }
