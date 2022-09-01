@@ -19,7 +19,7 @@ class Api::RequestsController < ApplicationController
       model: params[:model],
       color: params[:color],
       drivetrain: params[:drivetrain],
-      type: params[:type],
+      car_type: params[:car_type],
       status: params[:status],
       comment: params[:comment],
       user_id: params[:user_id],
@@ -38,7 +38,7 @@ class Api::RequestsController < ApplicationController
     @request.model = params[:model] || @request.model
     @request.color = params[:color] || @request.color
     @request.drivetrain = params[:drivetrain] || @request.drivetrain
-    @request.type = params[:type] || @request.type
+    @request.car_type = params[:car_type] || @request.car_type
     @request.comment = params[:comment] || @request.comment
     @request.status = params[:status] || @request.status
     @request.user_id = params[:user_id] || @request.user_id

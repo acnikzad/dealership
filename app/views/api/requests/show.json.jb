@@ -6,7 +6,7 @@
   model: @request.model,
   color: @request.color,
   drivetrain: @request.drivetrain,
-  type: @request.type,
+  car_type: @request.car_type,
   status: @request.status,
   comment: @request.comment,
   user_id: @request.user_id,
