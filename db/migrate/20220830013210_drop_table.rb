@@ -1,6 +1,6 @@
 class DropTable < ActiveRecord::Migration[7.0]
   def change
 
-    drop_table :dealers
+    # drop_table :dealers
   end
 end

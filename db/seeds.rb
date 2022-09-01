@@ -9,104 +9,104 @@
 
 # USERS ***********************
 
-user = User.all
+#user = User.all
 
-@user = User.create({
-  "first_name" => "Frank",
-  "last_name" => "Banner",
-  "email" => "frank@banner.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Frank",
+#   "last_name" => "Banner",
+#   "email" => "frank@banner.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
-@user = User.create({
-  "first_name" => "Matt",
-  "last_name" => "Grove",
-  "email" => "matt@grove.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Matt",
+#   "last_name" => "Grove",
+#   "email" => "matt@grove.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
-@user = User.create({
-  "first_name" => "Wayne",
-  "last_name" => "Bowls",
-  "email" => "wayne@bowls.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Wayne",
+#   "last_name" => "Bowls",
+#   "email" => "wayne@bowls.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
-@user = User.create({
-  "first_name" => "Ashley",
-  "last_name" => "Scala",
-  "email" => "wayne@bowls.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Ashley",
+#   "last_name" => "Scala",
+#   "email" => "wayne@bowls.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
-@user = User.create({
-  "first_name" => "Karen",
-  "last_name" => "Berry",
-  "email" => "karen@berry.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Karen",
+#   "last_name" => "Berry",
+#   "email" => "karen@berry.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
-@user = User.create({
-  "first_name" => "Manu",
-  "last_name" => "Facturer",
-  "email" => "manu@facturer.com",
-  "password" => "password",
-  "password_confirmation" => "password_confirmation"
-})
+# User.create!({
+#   "first_name" => "Manu",
+#   "last_name" => "Facturer",
+#   "email" => "manu@facturer.com",
+#   "password" => "password",
+#   "password_confirmation" => "password_confirmation"
+# })
 
 # DEALERS ***********************
 
-dealer = Dealer.all
+# dealer = Dealer.all
 
-@dealer = Dealer.create({
-  "name" => "Banners Value Cars",
-  "phone_number" => "(510) 999-0000",
-  "address" => "123 Main Street",
-  "city" => "Oakland",
-  "cash" => 100000,
-  "user_id" => "1"
-})
+# Dealer.create!({
+#   "name" => "Banners Value Cars",
+#   "phone_number" => "(510) 999-0000",
+#   "address" => "123 Main Street",
+#   "city" => "Oakland",
+#   "cash" => 100000,
+#   "user_id" => "1"
+# })
 
-@dealer = Dealer.create({
-  "name" => "Matts Auto Grove",
-  "phone_number" => "(916) 888-1111",
-  "address" => "123 Second Street",
-  "city" => "Sacramento",
-  "cash" => 100000,
-  "user_id" => "2"
-})
+# Dealer.create!({
+#   "name" => "Matts Auto Grove",
+#   "phone_number" => "(916) 888-1111",
+#   "address" => "123 Second Street",
+#   "city" => "Sacramento",
+#   "cash" => 100000,
+#   "user_id" => "2"
+# })
 
-@dealer = Dealer.create({
-  "name" => "Waynes Auto World",
-  "phone_number" => "(523) 777-2222",
-  "address" => "123 Third Avenue",
-  "city" => "Los Angeles",
-  "cash" => 100000,
-  "user_id" => "3"
-})
+# Dealer.create!({
+#   "name" => "Waynes Auto World",
+#   "phone_number" => "(523) 777-2222",
+#   "address" => "123 Third Avenue",
+#   "city" => "Los Angeles",
+#   "cash" => 100000,
+#   "user_id" => "3"
+# })
 
-@dealer = Dealer.create({
-  "name" => "Scalas Quality Cars",
-  "phone_number" => "(808) 777-2222",
-  "address" => "123 Fourth Avenue",
-  "city" => "San Diego",
-  "cash" => 100000,
-  "user_id" => "4"
-})
+# Dealer.create!({
+#   "name" => "Scalas Quality Cars",
+#   "phone_number" => "(808) 777-2222",
+#   "address" => "123 Fourth Avenue",
+#   "city" => "San Diego",
+#   "cash" => 100000,
+#   "user_id" => "4"
+# })
 
-@dealer = Dealer.create({
-  "name" => "Berries Best Cars",
-  "phone_number" => "(415) 777-2222",
-  "address" => "123 Fourth Avenue",
-  "city" => "San Francisco",
-  "cash" => 100000,
-  "user_id" => "5"
-})
+# Dealer.create!({
+#   "name" => "Berries Best Cars",
+#   "phone_number" => "(415) 777-2222",
+#   "address" => "123 Fourth Avenue",
+#   "city" => "San Francisco",
+#   "cash" => 100000,
+#   "user_id" => "5"
+# })
 
 # CARS ***********************
 
@@ -155,7 +155,7 @@ vws = ["Jetta", "Passat", "Beetle", "Touareg", "Tiguan", "Golf", "GTI", "Phaeton
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Toyota",
     "model" => random_model,
@@ -166,6 +166,8 @@ vws = ["Jetta", "Passat", "Beetle", "Touareg", "Tiguan", "Golf", "GTI", "Phaeton
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+
+  p @car
 end
 
 100.times do 
@@ -204,7 +206,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Honda",
     "model" => random_model,
@@ -215,6 +217,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -247,7 +250,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Acura",
     "model" => random_model,
@@ -258,6 +261,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -299,7 +303,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Ford",
     "model" => random_model,
@@ -310,6 +314,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -348,7 +353,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Cheverolet",
     "model" => random_model,
@@ -359,6 +364,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -397,7 +403,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Dodge",
     "model" => random_model,
@@ -408,6 +414,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -440,7 +447,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "BMW",
     "model" => random_model,
@@ -451,6 +458,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -492,7 +500,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Nissan",
     "model" => random_model,
@@ -503,6 +511,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -541,7 +550,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Subaru",
     "model" => random_model,
@@ -552,6 +561,7 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end
 
 100.times do 
@@ -590,7 +600,7 @@ end
     car_type = "Sedan"
   end
 
-  @car = Car.create({
+  Car.create!({
     "year" => random_year,
     "make" => "Volkswagon",
     "model" => random_model,
@@ -601,4 +611,5 @@ end
     "mileage" => random_miles,
     "dealer_id" => random_dealer
   })
+  p @car
 end

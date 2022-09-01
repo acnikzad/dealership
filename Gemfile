@@ -58,4 +58,4 @@ end
 gem "http"
 gem "rack-cors"
 gem "jb"
-gem 'active_model_serializers'
+gem "active_model_serializers"

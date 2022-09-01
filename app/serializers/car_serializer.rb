@@ -1,3 +1,3 @@
 class CarSerializer < ActiveModel::Serializer
-  attributes :id, :dealer
+  attributes :id, :year, :make, :model, :color, :drivetrain, :car_type, :price, :mileage, :dealer_id
 end
