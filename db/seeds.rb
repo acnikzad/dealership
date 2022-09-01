@@ -129,13 +129,13 @@ vws = ["Jetta", "Passat", "Beetle", "Touareg", "Tiguan", "Golf", "GTI", "Phaeton
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -175,13 +175,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -224,13 +224,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -267,13 +267,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -319,13 +319,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -368,13 +368,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -417,13 +417,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -460,13 +460,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -512,13 +512,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
@@ -561,13 +561,13 @@ end
   random_color = colors[rand(0..colors.length - 1)]
   random_dealer = rand(1..5)
 
-  if random_year < 1990
+  if random_year <= 1990
     random_price = rand(5000..8000)
-  elsif random_year < 2000
+  elsif random_year > 1990 && random_year <= 2000
     random_price = rand(8001..15000)
-  elsif random_year < 2010
+  elsif random_year > 2000 && random_year <= 2010
     random_price = rand(15001..20000)
-  elsif random_year < 2020
+  elsif random_year > 2010 && random_year <= 2020
     random_price = rand(20001..35000)
   else
     random_price = rand(35000..60000)
