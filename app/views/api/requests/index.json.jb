@@ -11,7 +11,7 @@
   status: request.status,
   comment: request.comment,
   user_id: request.user_id,
-  dealership_id: request.dealership_id,
+  dealer_id: request.dealer_id,
 
   }
 end

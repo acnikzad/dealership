@@ -19,29 +19,29 @@ class Api::CarsController < ApplicationController
       model: params[:model],
       color: params[:color],
       drivetrain: params[:drivetrain],
-      type: params[:type],
+      car_type: params[:car_type],
       price: params[:price],
       mileage: params[:mileage],
-      dealership_id: params[:dealership_id],
+      dealer_id: params[:dealer_id],
       )
     @car.save
     render :show
   end
 
   def update
-    the_id = params[:id]
-    @car = Car.find_by(id: the_id)
+    # the_id = params[:id]
+    @car = Car.find_by(id: params[:id])
     @car.year = params[:year] || @car.year
     @car.make = params[:make] || @car.make
     @car.model = params[:model] || @car.model
     @car.color = params[:color] || @car.color
     @car.drivetrain = params[:drivetrain] || @car.drivetrain
-    @car.type = params[:type] || @car.type
+    @car.car_type = params[:car_type] || @car.car_type
     @car.price = params[:price] || @car.price
     @car.mileage = params[:mileage] || @car.mileage
-    @car.dealership_id = params[:dealership_id] || @car.dealership_id
+    @car.dealer_id = params[:dealer_id] || @car.dealer_id
+    @car.save!
 
-    @car.save
     render :show
   end
 

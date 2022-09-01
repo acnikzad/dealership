@@ -7,10 +7,10 @@
   model: car.model,
   color: car.color,
   drivetrain: car.drivetrain,
-  type: car.type,
+  car_type: car.car_type,
   price: car.price,
   mileage: car.mileage,
-  dealership_id: car.dealership_id
+  dealer_id: car.dealer_id
 
   }
 end
