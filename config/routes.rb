@@ -23,10 +23,12 @@ Rails.application.routes.draw do
     delete "/cars/:id" => "cars#destroy"
 
     get "/requests" => "requests#index"
-    get "/requests/:id" => "requests#show"
+    get "/requests/:id" => "requests#showß"
     post "/requests" => "requests#create"
     patch "/requests/:id" => "requests#update"
     delete "/requests/:id" => "requests#destroy"
+
+     post "/sessions" => "sessions#create"
 
 
   end
