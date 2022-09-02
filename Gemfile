@@ -59,3 +59,4 @@ gem "http"
 gem "rack-cors"
 gem "jb"
 gem "active_model_serializers"
+gem 'bcrypt', '~> 3.1.7'
