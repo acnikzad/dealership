@@ -2,7 +2,7 @@ class Api::RequestsController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-    @requests = Request.all
+    @requests = current_user.requests
     render json: @requests
   end 
 
