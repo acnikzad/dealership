@@ -6,6 +6,10 @@ class Api::CarsController < ApplicationController
     render json: @cars
   end 
 
+  def inventory
+    render json: current_user.dealer.cars
+  end
+
   def show
     the_id = params[:id]
     @car = Car.find_by(id: the_id)

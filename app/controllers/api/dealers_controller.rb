@@ -2,7 +2,13 @@ class Api::DealersController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-    @dealers = current_user.dealer
+    if current_user
+      @dealers = current_user.dealer
+      #render 'index.json.jb'
+    else
+      @dealers = []
+    end
+    # @dealers = Dealer.all
     render json: @dealers
   end 
 
