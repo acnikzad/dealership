@@ -10,7 +10,8 @@
   car_type: car.car_type,
   price: car.price,
   mileage: car.mileage,
-  dealer_id: car.dealer_id
+  dealer_id: car.dealer_id,
+  selected: false
 
   }
 end
